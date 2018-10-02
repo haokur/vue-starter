@@ -1,0 +1,14 @@
+{
+    "brace_style": "end-expand,preserve-inline",
+    "indent_size": 4,
+    "indent_char": " ",
+    "indent_scripts": "keep",
+    "space_after_anon_function": true,
+    "unformatted": [],
+    "end_with_newline": true,
+    "keep_array_indentation": true,
+    "content_unformatted": [
+        "pre",
+        "textarea"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "vue-starter",
+    "version": "1.0.0",
+    "description": "基于vue-cli3初始化支持typescript和多页面项目",
+    "main": "src/modules/double-eleven/double-eleven.js",
+    "scripts": {
+        "start": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "doc:dev": "vuepress dev docs"
+    },
+    "dependencies": {
+        "vue": "2.5.17",
+        "vue-router": "3.0.1",
+        "vuex": "3.0.1",
+        "register-service-worker": "1.0.0",
+        "vue-class-component": "6.0.0",
+        "vue-property-decorator": "7.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "3.0.0",
+        "@vue/cli-plugin-eslint": "3.0.0",
+        "@vue/cli-plugin-pwa": "3.0.4",
+        "@vue/cli-plugin-typescript": "3.0.4",
+        "@vue/cli-service": "3.0.0",
+        "@vue/eslint-config-standard": "3.0.4",
+        "@vue/eslint-config-typescript": "3.0.4",
+        "eslint": "5.6.0",
+        "eslint-config-standard": "12.0.0",
+        "eslint-plugin-import": "2.14.0",
+        "eslint-plugin-node": "7.0.1",
+        "eslint-plugin-promise": "4.0.1",
+        "eslint-plugin-standard": "4.0.0",
+        "node-sass": "4.9.3",
+        "postcss-import": "12.0.0",
+        "postcss-url": "8.0.0",
+        "sass-loader": "7.1.0",
+        "typescript": "3.0.0",
+        "vue-template-compiler": "2.5.17",
+        "vuepress": "0.14.4",
+        "webpack-bundle-analyzer": "3.0.2"
+    },
+    "keywords": [
+        "vue-cli3",
+        "sass",
+        "cypress",
+        "typescript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
+}
